@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container, .inner{
+            width: 300px;
+            height: 300px;
+        }
+        .container{
+            border: 2px solid skyblue;
+            background-color: aqua;
+            
+        }
+        .inner{
+            border: 2px solid tomato;
+            background-color: bisque;
+            /* transform: scale(0.5); */
+            transform: rotate(45deg);
+        }
+        :root{
+            --roni:red;
+            --font-size:20px,
+        }
+    </style>
+</head>
+<body>
+    <div class="container"> 
+        <div class="inner">inner-1</div>
+    </div>
+    <div class="container"> 
+        <div class="inner">inner-2</div>
+    </div>
+    <div class="container"> 
+        <div class="inner">inner-3</div>
+    </div>
+</body>
+</html>
